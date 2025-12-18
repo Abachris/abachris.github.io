@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Professional website of Your Name – projects, research, teaching, and contact information."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#top" class="brand-name">Your Name</a>
+        <p class="brand-tagline">Machine Learning · Mathematics · Computer Science</p>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I'm Your Name.</h1>
+        <p>
+          I’m a <strong>machine learning</strong> and <strong>mathematics</strong> enthusiast
+          interested in anomaly detection, computer vision, and teaching.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        <div class="hero-meta">
+          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          ·
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          ·
+          <a href="docs/YourName_CV.pdf" target="_blank" rel="noopener noreferrer">
+            CV (PDF)
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <!-- Replace profile.jpg with your own image file if you want -->
+        <div class="photo-placeholder">
+          <span>Your Photo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        Write a short professional bio here. Mention your current degree/program, your main areas
+        of interest (e.g. anomaly detection, computer vision, theoretical CS, etc.), and what you
+        are looking for (e.g. internships, research collaborations, grad school).
+      </p>
+      <p>
+        You can also briefly note any awards, scholarships, or honors that are relevant, and what
+        excites you about your work.
+      </p>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="section section-alt">
+    <div class="container">
+      <h2>Research</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Project / Thesis Title</h3>
+          <p class="card-meta">Advisor: Dr. Someone · 2024–Present</p>
+          <p>
+            One–two sentence summary of your main research. Focus on the problem, your approach,
+            and what’s interesting about it. Add links to preprints or code if available.
+          </p>
+          <p class="card-links">
+            <a href="https://github.com/your-github/your-repo" target="_blank" rel="noopener noreferrer">
+              Code
+            </a>
+            ·
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              PDF / Writeup
+            </a>
+          </p>
+        </article>
+
+        <!-- Duplicate <article> blocks as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        A selection of projects I’ve worked on recently. More are available on my
+        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Project Name</h3>
+          <p class="card-meta">Python · Machine Learning</p>
+          <p>
+            Brief description of what the project does, why you built it, and any interesting
+            technical details (e.g. libraries used, algorithms implemented).
+          </p>
+          <p class="card-links">
+            <a href="https://github.com/your-github/project-repo" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Another Project</h3>
+          <p class="card-meta">C++ · Game Dev</p>
+          <p>
+            Short summary of another project. Keep 2–4 lines: what problem it solves or what’s
+            fun about it, and what technologies you used.
+          </p>
+          <p class="card-links">
+            <a href="https://github.com/your-github/another-project" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+            </a>
+          </p>
+        </article>
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching Section -->
+  <section id="teaching" class="section section-alt">
+    <div class="container">
+      <h2>Teaching & Mentoring</h2>
+      <ul class="simple-list">
+        <li>
+          <strong>Teaching Assistant, Course Name</strong> — Institution, Semester.
+          One sentence about what you did (e.g. led recitations, graded assignments, held office hours).
+        </li>
+        <li>
+          <strong>Peer Tutor, Subject</strong> — Institution, Year.
+          One sentence about the topics you tutor and the level (e.g. Calculus I, Data Structures).
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>
+        The best way to reach me is by email at
+        <a href="mailto:your.email@example.com">your.email@example.com</a>.
+      </p>
+      <p>
+        You can also find me on
+        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+        and
+        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Your Name</p>
+      <p class="footer-meta">Built with GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
