@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Christopher M. Ritter | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
@@ -20,7 +21,7 @@
       </div>
 
       <nav class="nav">
-        <button class="nav-toggle" aria-label="Toggle navigation">
+        <button class="nav-toggle" aria-labe  l="Toggle navigation">
           ☰
         </button>
         <ul class="nav-links">
@@ -28,7 +29,6 @@
           <li><a href="#research">Research</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -39,27 +39,22 @@
   <section class="hero" id="top">
     <div class="container hero-inner">
       <div class="hero-text">
-        <h1>Christopher M. Ritter</h1>
+        <h1>Christopher M. Ritter
+          <a href="https://github.com/Abachris" target="_blank" class="social-bubble">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/christopher-m-ritter/" target="_blank" class="social-bubble">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </h1>
         <p>
           I’m currently enrolled at New College of Florida as a <strong>Computer Science</strong> and <strong>Mathematics</strong> dual major. I'm highly interested in Machine Learning, where I am actively engaged in undergraduate research.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn primary">View Projects</a>
-          <a href="#contact" class="btn">Get in Touch</a>
+          <a href="Assets/Resume.pdf" target="_blank" class="social-bubble">Resume</a>
         </div>
-        <div class="hero-meta">
-          <a href="https://github.com/Abachris" target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-          ·
-          <a href="www.linkedin.com/in/christopher-m-ritter" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-          ·
-          <a href="docs/YourName_CV.pdf" target="_blank" rel="noopener noreferrer">
-            CV (PDF)
-          </a>
-        </div>
+
+
       </div>
 
       <div class="hero-photo">
@@ -68,6 +63,14 @@
           <span>Your Photo</span>
         </div>
       </div>
+
+      <div class="hero-school">
+        <!-- Replace profile.jpg with your own image file if you want -->
+        <div class="school-placeholder">
+          <span>Your Photo</span>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -94,22 +97,42 @@
       <div class="cards">
         <article class="card">
           <h3>Memory-Bounded A/RED: Scalable Active Detection of Rare Relevant Events in Indefinite Length Streams</h3>
-          <p class="card-meta">Authors: R. Loveland, N. Clark, and C. Ritter</p>
+          <p class="card-meta">Authors: R. Loveland, N. Clark, J. Gentile, and C. Ritter</p>
+          <p class="card-meta">Conference: [Proceedings of the International Conference on Artificial Intelligence x Data and Knowledge Engineering (AIxDKE)], IEEE, Laguna Hills, CA (February 2026)
+          </p>
           <p>
             One–two sentence summary of your main research. Focus on the problem, your approach,
             and what’s interesting about it. Add links to preprints or code if available.
           </p>
           <p class="card-links">
-            <a href="https://github.com/your-github/your-repo" target="_blank" rel="noopener noreferrer">
-              Code
+            <a href="N/A" target="_blank" rel="noopener noreferrer">
+              arXiv
             </a>
             ·
             <a href="#" target="_blank" rel="noopener noreferrer">
-              PDF / Writeup
+              PDF
             </a>
           </p>
         </article>
 
+        <article class="card">
+          <h3>Shallow vs. Deep Features for Anomalous/Relevant Event Detection in High-Dimensional Streaming Imagery</h3>
+          <p class="card-meta">Authors: R. Loveland, N. Clark, and C. Ritter</p>
+          <p class="card-meta">Conference: [International Conference on Image, Video and Signal Processing (IVSP 2026)], SPIE, Tokyo, JP (March 2026) </p>
+          <p>
+            One–two sentence summary of your main research. Focus on the problem, your approach,
+            and what’s interesting about it. Add links to preprints or code if available.
+          </p>
+          <p class="card-links">
+            <a href="N/A" target="_blank" rel="noopener noreferrer">
+              arXiv
+            </a>
+            ·
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              PDF
+            </a>
+          </p>
+        </article>
         <!-- Duplicate <article> blocks as needed -->
       </div>
     </div>
@@ -121,7 +144,7 @@
       <h2>Projects</h2>
       <p class="section-intro">
         A selection of projects I’ve worked on recently. More are available on my
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        <a href="https://github.com/Abachris" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </p>
 
       <div class="cards">
@@ -158,18 +181,22 @@
     </div>
   </section>
 
-  <!-- Teaching Section -->
-  <section id="teaching" class="section section-alt">
+  <!-- Experience Section -->
+  <section id="skills" class="section section-alt">
     <div class="container">
-      <h2>Teaching & Mentoring</h2>
+      <h2>Skills</h2>
       <ul class="simple-list">
         <li>
-          <strong>Teaching Assistant, Course Name</strong> — Institution, Semester.
-          One sentence about what you did (e.g. led recitations, graded assignments, held office hours).
+          <strong>Python
         </li>
         <li>
-          <strong>Peer Tutor, Subject</strong> — Institution, Year.
-          One sentence about the topics you tutor and the level (e.g. Calculus I, Data Structures).
+          <strong>Java
+        </li>
+        <li>
+          <strong>Computer Vision
+        </li>
+        <li>
+          <strong>
         </li>
       </ul>
     </div>
@@ -181,13 +208,13 @@
       <h2>Contact</h2>
       <p>
         The best way to reach me is by email at
-        <a href="mailto:your.email@example.com">your.email@example.com</a>.
+        <a href="mailto:email@example.com">chrismattritter@gmail.com</a>.
       </p>
       <p>
         You can also find me on
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/Abachris" target="_blank" rel="noopener noreferrer">GitHub</a>
         and
-        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/christopher-m-ritter" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>.
       </p>
@@ -197,11 +224,11 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> Your Name</p>
+      <p>© <span id="year"></span> Christopher M. Ritter</p>
       <p class="footer-meta">Built with GitHub Pages</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
