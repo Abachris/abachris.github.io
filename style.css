@@ -210,10 +210,12 @@ a:hover {
   text-decoration: none;
 }
 
+/* CHANGE IS HERE: added text-decoration: none; */
 .social-bubble:hover {
   background-color: var(--accent);
   color: var(--bg-dark);
   box-shadow: 0 0 10px var(--accent);
+  text-decoration: none;
 }
 
 /* ============================
